@@ -13,5 +13,8 @@ Code test for Brilliant Noise
 
 ## Commands
 
+- Run project: `npm start`
 - Run project in debug: `DEBUG=nodarchy:* npm start`
 - Optionally if you have **nodemon** you can run the project in debug with `DEBUG=express_example:* nodemon`
+
+- Run tests: `npm test`
