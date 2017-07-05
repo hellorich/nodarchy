@@ -4,6 +4,7 @@ Code test for Brilliant Noise
 ## Requirements
 
 - Node.js
+- Nodemon (optional)
 
 ## Installation
 
@@ -13,3 +14,4 @@ Code test for Brilliant Noise
 ## Commands
 
 - Run project in debug: `DEBUG=nodarchy:* npm start`
+- Optionally if you have **nodemon** you can run the project in debug with `DEBUG=express_example:* nodemon`
