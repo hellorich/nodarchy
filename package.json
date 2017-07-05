@@ -1,0 +1,19 @@
+{
+  "name": "nodarchy",
+  "version": "1.0.0",
+  "description": "Code test for Brilliant Noise",
+  "main": "index.hb",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellorich/nodarchy.git"
+  },
+  "author": "Rich Cookson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellorich/nodarchy/issues"
+  },
+  "homepage": "https://github.com/hellorich/nodarchy#readme"
+}
