@@ -1,19 +1,26 @@
 {
   "name": "nodarchy",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Code test for Brilliant Noise",
-  "main": "index.hb",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hellorich/nodarchy.git"
   },
-  "author": "Rich Cookson",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hellorich/nodarchy/issues"
   },
-  "homepage": "https://github.com/hellorich/nodarchy#readme"
+  "homepage": "https://github.com/hellorich/nodarchy#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "hbs": "~4.0.1",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
 }
