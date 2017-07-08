@@ -22,3 +22,5 @@ describe('Test JSON source exists', function () {
     });
   });
 });
+
+// Could add more tests here to validate JSON object more thoroughly
