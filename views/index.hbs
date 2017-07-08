@@ -1,2 +1,13 @@
+
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+
+<table>
+    {{#each object}}
+    <tr>
+        <td>{{nm}}</td>
+        <td>{{cty}}</td>
+        <td>{{hse}}</td>
+        <td>{{yrs}}</td>
+    </tr>
+    {{/each}}
+</table>
