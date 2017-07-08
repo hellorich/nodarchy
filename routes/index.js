@@ -1,9 +1,15 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
+let request = require('request');
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  request({
+    uri: 'http://mysafeinfo.com/api/data',
+    qs: {
+      list: 'englishmonarchs',
+      format: 'json'
+    }
+  }).pipe(res);
 });
 
 module.exports = router;
