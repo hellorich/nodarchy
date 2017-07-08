@@ -17,6 +17,7 @@ router.get('/', function(req, res, next) {
 
     res.render('index', {
       'title': 'Nodarchy',
+      'description': 'A simple Node Monarchy listing.',
       'object': JSON.parse(body)
     });
 
