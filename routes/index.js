@@ -9,7 +9,19 @@ router.get('/', function(req, res, next) {
       list: 'englishmonarchs',
       format: 'json'
     }
-  }).pipe(res);
+  }, function (err, response, body) {
+
+    if (err || response.statusCode !== 200) {
+      return res.sendStatus(500);
+    }
+
+    res.render('index', {
+      'title': 'Nodarchy',
+      'object': JSON.parse(body)
+    });
+
+  });
+
 });
 
 module.exports = router;
