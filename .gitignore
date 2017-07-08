@@ -3,3 +3,6 @@
 
 # Ignore dependencies
 node_modules
+
+# Ignore debug log
+npm-debug.log
